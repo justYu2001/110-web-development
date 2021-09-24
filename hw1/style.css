@@ -66,6 +66,48 @@ h2.title{
     padding-bottom: 40px;
 }
 
+.experience ul{
+    position: relative;
+    padding-left: 10px;
+}
+
+.experience ul::before{
+    content: '';
+    position: absolute;
+    left: 18.5px;
+    top: 10px;
+    width: 3px;
+    height: 48px;
+    background-color: #97caef;
+    display: block;
+}
+
+.experience li{
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.experience li::before{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #97caef;
+    border-radius: 50%;
+}
+
+.experience .last::before{
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border: 2px solid #97caef;
+    border-radius: 50%;
+}
+
 .footer{
     background-color: #97caef;
     padding: 60px;
