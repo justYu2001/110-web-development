@@ -1,0 +1,103 @@
+h1,
+h2,
+small {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.name{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    border-bottom: 3px solid #000;
+}
+
+.name .propic{
+    width: 300px;
+    border-radius: 50%;
+}
+
+.name .title{
+    font-size: 54px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.title small{
+    font-size: 24px;
+    font-weight: 300;
+    display: block;
+    margin: 10px 0;
+}
+
+.about{
+    padding: 20px;
+    border-bottom: 3px solid #000;
+}
+
+h2.title{
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.about .material-icons{
+    font-size: 36px;
+}
+
+.about ul{
+    margin: 0 10px;
+}
+
+.about li {
+    display: flex;
+    align-items: center;
+}
+
+.about span {
+    color: #97caef;
+}
+
+.experience {
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.footer{
+    background-color: #97caef;
+    padding: 60px;
+}
+
+.footer .link-list{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    transition: ease .3s;
+}
+
+.footer li{
+    padding: 5px 0;
+    width: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: ease .3s;
+}
+
+.footer li:hover{
+    background-color: #fff;
+}
+
+.footer li:hover a{
+    color: #97caef;
+}
