@@ -1,0 +1,44 @@
+.la {
+    background-color: darksalmon;
+}
+
+.empty {
+    background-color: #ddd;
+}
+
+.oop {
+    background-color: darkseagreen;
+}
+
+.cm {
+    background-color: forestgreen;
+}
+
+.history {
+    background-color: gold;
+}
+
+.meeting {
+    background-color: hotpink;
+}
+
+.ds {
+    background-color: khaki;
+}
+
+.web {
+    background-color: lightblue;
+}
+
+.eco {
+    background-color: lightcoral;
+}
+
+.tt {
+    background-color: lightgreen;
+}
+
+.head {
+    background-color: #000;
+    color: #fff;
+}
