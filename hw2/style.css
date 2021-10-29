@@ -1,0 +1,51 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+}
+
+.name{
+    background-color: #e3a869;
+    text-align: center;
+    padding: 30px;
+}
+
+.name img{
+    border-radius: 50%;
+    width: 300px;
+}
+
+.name h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.list{
+    background-color: pink;
+    padding: 30px 30px;
+}
+
+.list img{
+    width: 100px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.about, .hobby {
+    padding: 30px;
+}
+
+li, p{
+    line-height: 1.5;
+}
+
