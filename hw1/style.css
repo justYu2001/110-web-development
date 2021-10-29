@@ -144,3 +144,23 @@ h2.title {
 .footer li:hover a {
     color: #97caef;
 }
+
+
+strong {
+    color: #f00;
+    text-decoration: overline;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 72px;
+}
+
+del{
+    background-color: green;
+}
+
+ins{
+    background-color: pink;
+}
+
