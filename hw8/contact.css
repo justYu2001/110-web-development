@@ -1,0 +1,45 @@
+main {
+    padding: 30px 0;
+}
+
+main ul {
+    display: flex;
+    justify-content: center;
+}
+
+main li {
+    border: 3px solid var(--primary);
+    border-radius: 10px;
+    margin: 0 60px;
+    transition: all ease 0.3s;
+}
+
+li p {
+    text-align: center;
+    transform: translateY(-140px);
+    color: var(--primary);
+    transition: all ease 0.3s;
+}
+
+li:hover {
+    background-color: var(--primary);
+}
+
+li:hover span,
+li:hover p {
+    color: #fff;
+}
+
+a {
+    display: block;
+    padding: 140px 120px;
+}
+
+span {
+    color: var(--primary);
+    transition: all ease 0.3s;
+}
+
+.material-icons {
+    font-size: var(--2xl);
+}

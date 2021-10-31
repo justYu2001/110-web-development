@@ -1,0 +1,90 @@
+p {
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+}
+
+.container-body {
+    padding: 30px 0;
+    border-right: 1px solid var(--gray);
+}
+
+.article {
+    display: flex;
+    padding: 20px;
+}
+
+.article figure {
+    border: 1px solid var(--gray);
+    padding: 5px;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.article figcaption {
+    padding: 5px 10px;
+}
+
+.article .content {
+    padding: 20px;
+}
+
+.article h2 {
+    font-size: var(--md);
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.article h3 {
+    font-size: var(--sm);
+    margin: 5px 0;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.article p {
+    padding-top: 10px;
+}
+
+aside {
+    min-width: 220px;
+    padding: 20px 0;
+}
+
+section h2,
+.contact h2 {
+    font-size: var(--lg);
+    font-weight: bold;
+    color: var(--primary);
+    padding: 10px 20px;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--primary);
+    transition: all ease .3s;
+    position: relative;
+}
+
+.menu a::after {
+    content: '';
+    display: block;
+    width: 180px;
+    height: 1px;
+    background-color: var(--gray);
+    position: absolute;
+    bottom: 0;
+}
+
+.menu a:hover {
+    background-color: var(--gray);
+}
+.contact p {
+    padding: 3px 20px;
+}

@@ -1,0 +1,39 @@
+.header {
+    background-color: var(--primary);
+    padding-top: 10px;
+    
+}
+
+.header h1 {
+    padding: 20px;
+    margin: 0px 20px;
+    text-indent: 80px;
+    font-size: var(--xl);
+    color: #fff;
+    background-image: url(logo.png);
+    background-size: 80px;
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+}
+
+.header p {
+    font-size: var(--lg);
+    padding: 0 10px;
+    color: #fff;
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    display: block;
+    transition: all ease 0.3s;
+}
+
+.header a:hover{
+    background-color: #ACB6D9;
+}

@@ -1,0 +1,106 @@
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.name {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    border-bottom: 3px solid #000;
+}
+
+.name .propic {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.name .title {
+    font-size: 54px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.title small {
+    font-size: 24px;
+    font-weight: 300;
+    display: block;
+    margin: 10px 0;
+}
+
+.about {
+    padding: 20px;
+    border-bottom: 3px solid #000;
+}
+
+h2.title {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.about .material-icons {
+    font-size: 36px;
+}
+
+.about ul {
+    margin: 0 10px;
+}
+
+.about li {
+    display: flex;
+    align-items: center;
+}
+
+.about span {
+    color: var(--primary);
+}
+
+.experience {
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.experience ul {
+    position: relative;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+.experience ul::before {
+    content: "";
+    position: absolute;
+    left: 18.5px;
+    top: 10px;
+    width: 3px;
+    height: 130px;
+    background-color: var(--primary);
+    display: block;
+}
+
+.experience li {
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.experience li::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: var(--primary);
+    border-radius: 50%;
+}
+
+.experience .last::before {
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+}
+
+

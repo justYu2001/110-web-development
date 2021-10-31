@@ -1,0 +1,26 @@
+.container {
+    padding: 60px 0;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 10px 20px;
+}
+
+tbody {
+    border-right: 1px solid var(--gray);
+}
+
+thead th {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+tbody th {
+    border-left: 1px solid var(--gray);
+    border-bottom: 1px solid var(--gray);
+}
