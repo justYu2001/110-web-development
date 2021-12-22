@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <h1>俄羅斯方塊</h1>
+        <h2>分數：<span>0</span></h2>
+        <canvas class="board"></canvas>
+        <div class="button-group">
+            <button id="start" class="btn">
+                <span class="material-icons">play_arrow</span>
+            </button>
+            <button id="rotate" class="btn" disabled>
+                <span class="material-icons">replay</span>
+            </button>
+            <button id="left" class="btn" disabled>
+                <span class="material-icons">arrow_left</span>
+            </button>
+            <button id="down" class="btn" disabled>
+                <span class="material-icons">arrow_drop_down</span>
+            </button>
+            <button id="right" class="btn" disabled>
+                <span class="material-icons">arrow_right</span>
+            </button>
+            <button id="restart" class="btn-restart" disabled>
+                restart
+            </button>
+        </div>
+    </main>
+    <img id="yellow" src="yellow.png" alt="">
+    <img id="red" src="red.png" alt="">
+    <img id="green" src="green.png" alt="">
+    <img id="cyan" src="cyan.png" alt="">
+    <img id="blue" src="blue.png" alt="">
+    <img id="orange" src="orange.png" alt="">
+    <img id="fuchsia" src="fuchsia.png" alt="">
+    <script src="context.js"></script>
+    <script src="keys.js"></script>
+    <script src="colors.js"></script>
+    <script src="images.js"></script>
+    <script src="shapes.js"></script>
+    <script src="piece.js"></script>
+    <script src="board.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
