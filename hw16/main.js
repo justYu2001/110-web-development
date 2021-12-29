@@ -21,7 +21,7 @@ const ratyOptions = {
     starOn: "https://cdnjs.cloudflare.com/ajax/libs/raty/3.1.1/images/star-on.png"
 }
 
-$('#rating').raty({ starType: 'i' });
+$('#rating').raty({ ...ratyOptions });
 
 const reviewTable = $('table');
 
@@ -59,8 +59,8 @@ async function render() {
         `;
         reviewTable.append(review);
         $(`#${filmReviewDoc.id}`).raty({
+            ...ratyOptions,
             score,
-            starType: 'i',
             click: updateScore,
         });
     });
